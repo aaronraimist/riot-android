@@ -33,6 +33,7 @@ Improvements:
  - Clicking on a user and a room avatar opens a new screen with animation to view the avatar in full screen, with zoom capabilities (#2455)
  - Added Troubleshoot Notification settings page
  - Add badge to indicate number of group invitations on the Home Screen (#1923)
+ - Notification settings re-organization
 
 Other changes:
  - Update README.md and CONTRIBUTING.md (#2795)
@@ -49,7 +50,18 @@ Bugfix:
  - Fix avatar icon characters being a little bit offset to right.
  - Fix Stopping Loading View after Upload of User Avatar (#2801)
  - Fix no display of image without `info` (#2666)
+<<<<<<< develop
  - Fix permission request failure. It was actually not necessary to request overlay permission (#2680)
+=======
+ - LED notifications are not working (#2512)
+ - Defensive code to ensure that FCM push will display a notification even if sync fails.
+
+Translations:
+ -
+
+Build:
+ -
+>>>>>>> Merge changes rs
 
 Changes in Riot 0.8.20 (2018-12-13)
 ===================================================
